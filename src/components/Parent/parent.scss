@@ -1,0 +1,46 @@
+body,
+html {
+  height: 100vh;
+  margin: 0;
+}
+.parentBox {
+  display: flex;
+}
+.leftBox {
+  flex: 0 0 60%;
+  background-image: url("../../Resources/bluela.svg");
+  background-color: #1f1f1f;
+  background-size: cover;
+  background-position: left bottom;
+  overflow-x: hidden;
+}
+.rightBox {
+  flex: 0 0 40%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 1085px) and (max-width: 1200px) {
+  .leftBox {
+    flex: 0 0 65%;
+  }
+  .rightBox {
+    flex: 0 0 35%;
+  }
+}
+@media screen and (min-width: 1010px) and (max-width: 1085px) {
+  .leftBox {
+    flex: 0 0 70%;
+  }
+  .rightBox {
+    flex: 0 0 30%;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .parentBox {
+    flex-direction: column;
+  }
+}

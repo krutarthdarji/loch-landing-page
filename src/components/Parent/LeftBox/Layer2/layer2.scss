@@ -1,0 +1,111 @@
+.layer2__left {
+  flex: 0 0 45%;
+}
+.layer2__right {
+  flex: 0 0 55%;
+  text-align: right;
+}
+.layer2__right__header {
+  color: #f2f2f2;
+  text-align: right;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 12px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.layer2__right__subheader {
+  color: #f2f2f2;
+  text-align: right;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  opacity: 0.7;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.eye-icon {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 8px;
+  width: 37%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cohorts-image {
+  width: 330px;
+  height: 275px;
+  background-image: url("../../../../Resources/IMG_2730.PNG");
+  object-fit: fill;
+  margin: 0;
+  padding: 0;
+  border-radius: 12px;
+  border: 1.5px solid rgba(255, 255, 255, 0.68);
+  box-shadow: 0px 14px 64px -4px rgba(24, 39, 75, 0.12),
+    0px 8px 22px -6px rgba(24, 39, 75, 0.12);
+}
+@media screen and (max-width: 721px) {
+  .layer2__right__subheader {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  .layer2__right__header {
+    width: 90%;
+  }
+  .eye-icon {
+    margin-top: 20px;
+  }
+  .layer2__left {
+    display: flex;
+    align-items: center;
+    width: 100% !important;
+    .cohorts-image {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+// @media screen and (min-width: 1300px) {
+//   .layer2__right__subheader,
+//   .layer2__right__header {
+//     width: 70%;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+//   .eye-icon {
+//     width: 37%;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+// }
+// @media screen and (min-width: 1200px) and (max-width: 1299px) {
+//   .layer2__right__subheader,
+//   .layer2__right__header {
+//     width: 55%;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+//   .eye-icon {
+//     width: 50%;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+// }
+// @media screen and (min-width: 1145px) and (max-width: 1199px) {
+//   .layer2__right__subheader,
+//   .layer2__right__header {
+//     width: 40%;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+//   .eye-icon {
+//     width: 68%;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+// }

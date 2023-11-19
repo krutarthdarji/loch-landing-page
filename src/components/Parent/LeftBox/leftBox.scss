@@ -1,0 +1,54 @@
+.layer1 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-bottom: 35px;
+}
+.layer2 {
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.layer3 {
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.testimonial-header {
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: right;
+  font-family: Inter;
+  font-size: 26px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.line-separator {
+  width: 85%;
+  height: 1px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 28px;
+  background: rgba(229, 229, 230, 0.5);
+}
+@media screen and (max-width: 721px) {
+  .layer1,
+  .layer2 {
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .layer3 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .layer3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}

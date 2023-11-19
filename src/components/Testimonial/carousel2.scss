@@ -1,0 +1,68 @@
+.testimonial-carousel-container {
+  width: 100%;
+}
+.react-multi-carousel {
+  width: 100%;
+}
+
+.react-multi-carousel-list {
+  padding: 0rem 0 2rem 0;
+}
+.testimonialRMC {
+  height: 125px;
+  width: 350px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 12px 15px;
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+}
+.nameRMC {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #19191a;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+.designationRMC {
+  color: #96979a;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.quoteRMC {
+  font-size: 14px;
+  color: #1d2129;
+  font-family: Inter;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1010px) and(max-width: 1300px) {
+  .testimonialRMC {
+    height: 150px;
+    width: 280px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .testimonialRMC {
+    height: 150px;
+    width: 280px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
