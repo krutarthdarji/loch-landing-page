@@ -12,7 +12,7 @@ const responsive = {
     items: 2,
   },
   mobile: {
-    breakpoint: { max: 767, min: 464 },
+    breakpoint: { max: 767, min: 0 },
     items: 1,
   },
 };
